@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&amp;amp;amp;display=swap);
+html {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #282828;
+}
+
+body>header {
+	position: fixed;
+	padding: 20px 50px;
+	background-color: #282828;	
+	color: #fff
+}
+
+body>header img {
+	float: left;
+	margin-right: 15px
+}
+
+body>header h1 {
+	font-size: 33px;
+	margin: 0
+
+}
+
+body>header p {
+	font-size: 19px;
+	margin: 0
+}
+
+.redB{
+	background-color: #FFFFFF;
+}
+
+main {
+	width: 80%;
+	padding: 30px 50px
+}
+
+main article {
+	padding: 25px 30px;
+	background-color: #FFFFFF;
+	margin-bottom: 50px
+}
+
+main article h2 {
+	font-size: 25px;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 0
+}
+
+main article img {
+	height: 160px;
+	margin: 0 20px 20px 0
+}
+
+main article p,
+main article h3,
+main article ul,
+main article ol {
+	color: #666
+}
+
+.bok{
+    position: fixed; /* Фиксированное положение */
+    right: 10px; /* Расстояние от правого края окна браузера */
+    width: 15%;
+    top: 20%; /* Расстояние сверху */
+    padding: 10px; /* Поля вокруг текста */ 
+    background: #C8CCE3; /* Цвет фона */ 
+
+}
+
+.bok img{
+	width: 100%;
+}
+
+footer {
+	background-color: #45036f;
+	padding: 20px 50px
+}
+
+footer p {
+	color: #fff;
+	font-size: 18px;
+	margin: 0
+}
